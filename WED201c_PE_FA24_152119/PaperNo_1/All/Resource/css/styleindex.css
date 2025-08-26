@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#content-header img {
+    width: 20%;
+}
+
+#content-header .content-search {
+    width: 30%;
+}
+
+#content-header h3{
+    margin-right: 20px;
+}
+
+#menu-nav {
+    display: flex;
+    width:100%;
+    justify-content: center;
+}
+
+
+.ct-dt-left img{
+    width:7%;
+}
+
+.ct-dt-right img{
+    width:100%;
+}
+
+.ct-dt-left-sort{
+    border: 1px solid #D2E6E8;
+    margin-bottom: 10px;
+}
+
+.ct-dt-left-sort h4{
+    background-color: #E1EDED;
+    margin-left: 15px;
+    color: #82B8BC;
+    margin: 0;
+    padding:10px;
+}
+
+.content-title h2{
+    text-align: center;
+    color:#82B8BC;
+}
+
+.border-shadow {
+    border: 1px solid #e0e0e0;
+    /* Đường viền xám nhạt, rõ nét */
+    box-shadow: 0 26px 58px 0 rgba(0, 0, 0, .22), 0 5px 14px 0 rgba(0, 0, 0, .18);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.place-name h2{
+    color: #82B8BC;
+}
+
+.top-bot-margin-10{
+    margin: 20px 0px;
+}
+
+.item{
+    display:flex;
+    align-items: stretch;
+}
+
+.item img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.item p{
+    margin-right: 5px;
+}
+.btn-book{
+    text-align: center;
+    background-color: #14AEE6;
+    color: white;
+    width:20%;
+    margin-left: 600px;
+    margin-bottom: 10px;
+    padding:10px;
+    border-radius: 10px;
+}
+
+#footer {
+    color: #fff;
+    text-align: center;
+    background-color: blue;
+}
+
+
